@@ -43,7 +43,11 @@ export default function StartupProject() {
                       : "project-card project-card-light"
                   }
                 >
-                  {project.image ? (
+                  {project.image ?
+                  project.type== 'external'?(
+                    <iframe  width="560" height="315" allowFullScreen src={"https://www.youtube.com/embed/KUw-NEblgLw"}></iframe>
+                  ):
+                   (
                     <div className="project-image">
                       <img
                         src={project.image}
