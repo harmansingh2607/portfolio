@@ -45,7 +45,7 @@ export default function StartupProject() {
                 >
                   {project.image ?
                   project.type== 'external'?(
-                    <iframe  width="560" height="315" allowFullScreen src={"https://www.youtube.com/embed/KUw-NEblgLw"}></iframe>
+                    <iframe  width="560" style={{position:'relative',marginLeft:'auto',marginRight:'auto'}} height="315" allowFullScreen src={"https://www.youtube.com/embed/KUw-NEblgLw"}></iframe>
                   ):
                    (
                     <div className="project-image">
